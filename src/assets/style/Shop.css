@@ -1,0 +1,93 @@
+@import url('./custom/custom.css');
+
+.ul-1{
+  height: 83px;
+  overflow: hidden;
+  transition:0.5s ease-in;
+}
+.ul-1.active{
+  height: 239px;
+  transition:0.5s ease-in;
+}
+.ro{
+    transform: rotate(-1800deg);
+}
+.ro.active{
+    transform: rotate(180deg)
+}
+.list-group-item{
+    border: none;
+    padding-top: 0.3rem;
+    padding-bottom: 0.4rem;
+    
+}
+
+.id{
+    appearance: none;
+    background-color: #319DFF;
+    height: 5px;
+    position: relative;
+   
+  }
+.id::after{
+    content: '';
+    width: 14px ;
+    height: 14px; 
+    top: -4.5px;
+    left: -2px;
+    background-color:#319DFF;
+    border-radius: 50%;
+    position: absolute;
+
+}
+  .id::-webkit-slider-thumb{
+    appearance: none;
+    width: 14px ;height: 14px; 
+    background-color:#319DFF;
+    border-radius: 50%;
+  }
+
+.col-md-3{
+    width: 23.8%;
+    height: 380px;
+
+}
+.list-icon{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 30px;
+
+  overflow: hidden;
+}
+ul.list-icon li a{
+  font-size: 20px;
+  color: #1D232C;
+  text-decoration: none;
+
+}
+ul.list-icon li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:#DDE1E8;
+}
+ul.list-icon li.icon{
+
+  background-color:#DDE1E8;
+  
+}
+ul.list-icon li.icon a{
+  color: #FFFFFF;
+}
+ul.list-icon li.icon:hover {
+background-color: #319DFF;
+}
+.list-icon:hover {
+ height: 90px;
+
+ margin-bottom: 76px;
+
+}

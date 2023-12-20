@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- font awsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../src/assets/style/Shop.css" />
+</head>
+
+<body>
+  <!-- section header start -->
+  <header class="container-fluid header___container">
+    <nav class="container top___bar">
+      <!-- logo box -->
+      <li class="logo___box">
+        <a href="index.html"><img src="../src/assets/images/logo/logo.png" /></a>
+      </li>
+
+      <!-- input search section -->
+      <div class="search-filed">
+        <input type="search" name="" id="" class="input-filed" placeholder="Search for products" />
+        <li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </li>
+      </div>
+
+      <!-- icons section -->
+      <li class="icons">
+        <i class="fa-solid fa-user"></i>
+      </li>
+      <li class="icons">
+        <i class="fa-solid fa-heart"></i>
+      </li>
+      <li class="icons">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </li>
+    </nav>
+  </header>
+  <!-- close header section -->
+
+  <!-- navigation bar section -->
+  <nav class="container-fluid navbar___container">
+    <ul class="navbar___list">
+      <li>
+        <a href="Shop.html">shop</a>
+      </li>
+      <li>
+        <a href="TvAndAudio.html">tv & audio</a>
+      </li>
+      <li>
+        <a href="LaptopAndPc.html">laptop & pcs</a>
+      </li>
+      <li>
+        <a href="SmartPhones.html">smartphones</a>
+      </li>
+      <li>
+        <a href="Accessory.html">accessory</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- close navigation bar section -->
+
+  <!-- open body -->
+  <div class="container d-flex p-0 gap-3">
+    <div class="leftbarn d-flex flex-column gap-3" style="flex: 1; padding: 0">
+      <div class="rounded p-3 d-flex flex-column ul-1" id="list-1" style="
+            gap: 0.8rem;
+            width: 272px;
+            border: 0.5px solid #eef0f4;
+            background-color: #eef0f4;
+          ">
+        <h1 style="font-size: 16px; color: #1d232c; width: 100%">Category</h1>
+        <h3 class="d-flex justify-content-between align-items-center" style="
+              color: #586a84;
+              width: 100%;
+              font-size: 14px;
+              cursor: pointer;
+            " onclick="cate_toggle()">
+          <span>
+            <span style="color: #1d232c">All</span></span>
+          <i class="fa-solid fa-chevron-down ro" id="rotate"></i>
+        </h3>
+        <h3 class="d-flex gap-3" style="color: #586a84; width: 100%; font-size: 14px">
+          <span>TV & Audio
+        </h3>
+        <h3 class="d-flex gap-3" style="color: #586a84; width: 100%; font-size: 14px">
+          <span>Smartphones</span> 
+        </h3>
+        <h3 class="d-flex gap-3" style="color: #586a84; width: 100%; font-size: 14px">
+          <span>Laptops & PCs
+        </h3>
+        <h3 class="d-flex gap-3" style="color: #586a84; width: 100%; font-size: 14px">
+          <span>Accessory
+        </h3>
+      </div>
+      <div class="ul-2 rounded p-3 d-flex flex-column gap-2" style="
+            height: 311px;
+            width: 272px;
+            background-color: #ffffff;
+            border: solid #eef0f4;
+          ">
+        <h1 style="font-size: 16px; color: #1d232c; width: 100%">Brands</h1>
+        <ul class="list-group rounded-0">
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Apple</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Samsung</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">LG</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Huawei</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Lenovo</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Nokia</span>
+            </label>
+          </li>
+        </ul>
+        <h3 style="color: #586a84; font-size: 14px">
+          Show more <i class="fa-solid fa-chevron-down ro" id="rotate"></i>
+        </h3>
+      </div>
+      <div class="ul-3 rounded p-3 d-flex flex-column" style="
+            height: 403px;
+            width: 272px;
+            background-color: #ffffff;
+            border: solid #eef0f4;
+          ">
+        <h1 style="font-size: 16px; color: #1d232c; width: 100%">Price</h1>
+        <ul class="list-group rounded-0">
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">
+                <50< /span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">100-200</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">200-300</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">300-400</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">400-500</span>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">>500</span>
+            </label>
+          </li>
+        </ul>
+        <hr />
+        <ul class="list-group rounded-0">
+          <li class="list-group-item">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+            <label style="font-size: 14; color: #bac4d1"><span style="color: #586a84">Price interval</span></label>
+          </li>
+          <li class="list-group-item">
+            <input class="id w-100" type="range" name="" id="" max="100" value="100" />
+          </li>
+          <li class="list-group-item">
+            <span style="color: #586a84">Price: </span>
+            <span> $6 - $14,800</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex flex-column gap-4" style="flex: 5">
+      <div class="w-100 rounded border p-3" style="height: 80px; background-color: #ffffff">
+        <div class="w-100 h-75 d-flex justify-content-between align-items-center">
+          <h1 style="font-size: 30px">Shop</h1>
+          <h1 style="font-size: 14px; color: 586A84">
+            Showing <span style="color: #1d232c">1-20</span> of
+            <span style="color: #1d232c">10929</span>
+          </h1>
+        </div>
+        <hr />
+      </div>
+      <div class="w-100 row gap-3 m-0">
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/smartphones/01.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/audio/03 1.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/smartphones/02 1.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/headsets/04 1.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/laptop/03 2.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/audio/15 3.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/tv/14 1.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border rounded">
+          <div class="w-100 h-25 d-flex flex-column justify-content-center gap-3">
+            <h5 class="card-title" style="font-size: 12px; color: #586a84">
+              Smartphones
+            </h5>
+            <p class="card-text" style="color: #0077e4; font-size: 14px">
+              Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1
+            </p>
+          </div>
+          <img src="../src/assets/images/smartwatch/09 1.png" class="card-img-top h-50" alt="" />
+          <div class="h-25 w-100 d-flex justify-content-between align-items-center">
+            <div class="w-50 h-50">
+              <h3 class="h-100 w-50 d-flex align-items-center p-0" style="color: #1d232c; font-size: 18px">
+                $1,200.00
+              </h3>
+            </div>
+            <div class="w-50 h-50 d-flex justify-content-end align-items-center">
+              <ul class="list-icon">
+                <li class="icon">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon">
+                    <i class="fa-solid fa-heart"></i></a>
+                </li>
+                <li class="list-icon-1">
+                  <a href="" onmouseenter="iconshow()" onmouseleave="iconhide()" class="sub-icon-1">
+                    <i class="fa-solid fa-share"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- close body -->
+
+  <!-- footer section start -->
+  <footer class="footer-container">
+    <div class="footer-wrapper">
+      <figure class="logo-box">
+        <a href="index.html"><img src="../src/assets/images/logo/logo.png" /></a>
+
+        <div class="footer-title">
+          <p>Email:</p>
+          <span>electronic.plateform.store@gmail.com</span>
+        </div>
+
+        <div class="social-links">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </figure>
+
+      <div class="category-footer">
+        <article>
+          <p>Category</p>
+        </article>
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#tvandaudio">Tv&amp;Audio</a>
+            </li>
+            <li>
+              <a href="#smartphones">Smartphones</a>
+            </li>
+            <li>
+              <a href="#laptopandpcs">Laptop&amp;Pcs</a>
+            </li>
+            <li>
+              <a href="#accessory">Accessory</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="category-footer">
+        <article>
+          <p>Useful Links</p>
+        </article>
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#wishlist">Wishlist</a>
+            </li>
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#termandcondition">Term &amp; Condition</a>
+            </li>
+            <li>
+              <a href="#privacypolicy">Privacy Policy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="category-footer">
+        <article>
+          <p>Customer Service</p>
+        </article>
+
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#about">My Account</a>
+            </li>
+            <li>
+              <a href="#contact">My Cart</a>
+            </li>
+            <li>
+              <a href="#wishlist">Track order</a>
+            </li>
+            <li>
+              <a href="#faq">Return &amp; Exchange</a>
+            </li>
+            <li>
+              <a href="#termandcondition">Repair service</a>
+            </li>
+            <li>
+              <a href="#privacypolicy">Support</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="copyright">
+    <article>
+      <p>© E3 Year4 Group 2023 - All Rights Reserved</p>
+    </article>
+  </footer>
+  <!-- footer section close -->
+
+  <!-- import javascript file -->
+  <script src="../src/Shop.js"></script>
+</body>
+
+</html>

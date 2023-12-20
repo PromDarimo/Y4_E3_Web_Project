@@ -1,0 +1,378 @@
+@import url('./custom/custom.css');
+@import url('./custom/custom.css');
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; /* Adjust based on your design */
+    cursor: pointer;
+    font-size: 16px; /* Adjust based on your design */
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+       height: 36px;
+      width: 36px;
+    
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .checkmark {
+    background-color:red; /* Adjust the color on hover */
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+
+/* blue */
+.col-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-blue {
+    background-color:blue /* Adjust the color on hover */
+  }
+  
+  .col-blue:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-blue:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-blue:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+/* black */
+.col-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-black {
+    background-color:black /* Adjust the color on hover */
+  }
+  
+  .col-black:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-black:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-black:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+/* green */
+.col-green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-green {
+    background-color:green /* Adjust the color on hover */
+  }
+  
+  .col-green:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-green:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-green:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  /* pink */
+  .col-pink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-pink {
+    background-color:pink /* Adjust the color on hover */
+  }
+  
+  .col-pink:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-pink:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-pink:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  /* yellow */
+  .col-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-yellow {
+    background-color:yellow /* Adjust the color on hover */
+  }
+  
+  .col-yellow:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-yellow:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-yellow:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  /* purple */
+  
+  .col-purple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-purple {
+    background-color:purple /* Adjust the color on hover */
+  }
+  
+  .col-purple:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-purple:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-purple:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  /* cyran */
+  .col-cyan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px; /* Adjust based on your design */
+    width: 36px; /* Adjust based on your design */
+    background-color: #eee; /* Background color of the checkbox */
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .checkbox-container  .col-cyan {
+    background-color:cyan /* Adjust the color on hover */
+  }
+  
+  .col-cyan:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .col-cyan:after {
+    display: block;
+  }
+  
+  .checkbox-container .col-cyan:after {
+    left: 13px; /* Adjust based on your design */
+    top: 8px; /* Adjust based on your design */
+    width: 10px; /* Adjust based on your design */
+    height: 15px; /* Adjust based on your design */
+    border: solid white; /* Color of the checkmark */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+/* white */
+.col-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px; /* Adjust based on your design */
+  width: 36px; /* Adjust based on your design */
+  background-color: #eee; /* Background color of the checkbox */
+  border: 1px solid #aaa; /* Border color */
+  border-radius: 5px;
+}
+
+.checkbox-container  .col-white {
+  background-color:white /* Adjust the color on hover */
+}
+
+.col-white:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .col-white:after {
+  display: block;
+}
+
+.checkbox-container .col-white:after {
+  left: 13px; /* Adjust based on your design */
+  top: 8px; /* Adjust based on your design */
+  width: 10px; /* Adjust based on your design */
+  height: 15px; /* Adjust based on your design */
+  border: solid white; /* Color of the checkmark */
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* orange */
+.col-orange {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px; /* Adjust based on your design */
+  width: 36px; /* Adjust based on your design */
+  background-color: #eee; /* Background color of the checkbox */
+  border: 1px solid #aaa; /* Border color */
+  border-radius: 5px;
+}
+
+.checkbox-container  .col-orange {
+  background-color:orange /* Adjust the color on hover */
+}
+
+.col-orange:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .col-orange:after {
+  display: block;
+}
+
+.checkbox-container .col-orange:after {
+  left: 13px; /* Adjust based on your design */
+  top: 8px; /* Adjust based on your design */
+  width: 10px; /* Adjust based on your design */
+  height: 15px; /* Adjust based on your design */
+  border: solid white; /* Color of the checkmark */
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

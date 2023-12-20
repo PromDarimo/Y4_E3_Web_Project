@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- font awsome link -->
+  <link rel="stylesheet" href="/src/style/Accessory.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../src/assets/style/Accessory.css">
+  <link rel="stylesheet" href="/src/style/Accessory.css">
+</head>
+<body>
+  <!-- section header start -->
+  <header class="container-fluid header___container">
+    <nav class="container top___bar">
+      <!-- logo box -->
+      <li class="logo___box">
+        <a href="index.html"><img src="../src/assets/images/logo/logo.png"/></a>
+      </li>
+
+      <!-- input search section -->
+      <div class="search-filed">
+        <input type="search" name="" id="" class="input-filed" placeholder="Search for products" />
+        <li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </li>
+      </div>
+
+      <!-- icons section -->
+      <li class="icons">
+        <i class="fa-solid fa-user"></i>
+      </li>
+      <li class="icons">
+        <i class="fa-solid fa-heart"></i>
+      </li>
+      <li class="icons">
+        <i class="fa-solid fa-bag-shopping"></i>
+      </li>
+    </nav>
+  </header>
+  <!-- close header section -->
+
+  <!-- navigation bar section -->
+  <nav class="container-fluid navbar___container">
+    <ul class="navbar___list">
+      <li>
+        <a href="Shop.html">shop</a>
+      </li>
+      <li>
+        <a href="TvAndAudio.html">tv & audio</a>
+      </li>
+      <li>
+        <a href="LaptopAndPc.html">laptop & pcs</a>
+      </li>
+      <li>
+        <a href="SmartPhones.html">smartphones</a>
+      </li>
+      <li>
+        <a class="active" href="Accessory.html">accessories</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- close navigation bar section -->
+
+  <!-- open body -->
+  
+  <div class="boxAll">
+    <div class="boxLeft">
+      <div class="category" id="category" style="background-color: rgba(128, 128, 128, 0.201);
+      ">
+        <div class="categoryText">
+          <a href=""><h1>Shop</h1></a>
+          <a href="">Tv & Audio</a>
+          <a href="">Laptop & Pcs</a>
+          <a href="">Smartphones</a>
+          <a href="">Accessories</a>
+        </div>
+      </div>
+      <div class="category">
+        <div class="categoryText" >
+          <h1>Brands</h1>
+
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Apple</label>
+          </div>
+
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Samsung</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">LG </label>
+          </div>
+
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Huawe</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Lenovo</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Nokia</label>
+          </div>
+          <div class="Checkbox">
+           <label for="">Show more</label><i class="fa-solid fa-angle-down"></i>
+          </div>
+
+        </div>
+      </div>
+      <div class="category CatText">
+        <div class="categoryText">
+            <h1>Price</h1>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1"> < 50 </label>
+          </div>
+
+          <div class="Checkbox" id="CheckboxAdd">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">100-200</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">200-300</label>
+          </div>
+
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">300-400</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">400-500</label>
+          </div>
+          <div class="Checkbox">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2"> >500</label>
+          </div>
+          <div>
+            <hr>
+          </div>
+          <div class="Checkbox Checkbox2">
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Price interval</label>
+          </div>
+          <div class="RangeCheckBox">
+            <input
+            class="id w-100"
+            type="range"
+            name=""
+            id=""
+            max="100"
+            value="100"/>
+          </div>
+          <div class="Checkbox Checkbox2">
+            <label for="checkbox2">Price: $6 - $14,800</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="boxRight">
+      <div class="boxRight-Top">
+        <div class="top-Menu">
+          <div class="textMenu-header">
+            <h4 >Shop</h4>
+            <span><span>Showing <b>20</b> of <b> 10929</b></span> </span>
+          </div>
+
+          <div class="textMenu-middle">
+            <hr>
+          </div>
+          <!-- <div class="h1">HI   Test Te Bro</div> -->
+        </div>
+      </div>
+      <div class="boxRight-Middle">
+        <div class="boxMiddle">
+          <div class="BoxRightMiddleAll">
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Power Bank </span>
+                <h4>Power bank “J87 Tacker” PD20W+QC3.0 10000mAh</h4>
+              </div>
+              <div class="PhonePicPic">
+                <img src="/src/assets/images/accessory/10%203.png" alt="" srcset="">
+              </div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$59.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Gaming</span>
+                <h4>MSI FORCE GC30 V2 WHITE GAMING CONTROLLER</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/04%202.png" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$49.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Microphone</span>
+                <h4>
+                  RAZER SEIREN MINI BLACK ULTRA COMPACT STREAMING MICROPHONE
+                </h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/9 3.png" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$55.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Kindle</span>
+                <h4>E ink Kindle PaperWhite 2021, 6.8",
+                  Waterproof, 8GB, Wi Fi</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/11%201.png" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$120.00
+                  </h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxMiddle">
+          <div class="BoxRightMiddleAll">
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Mobile Charger</span>
+                <h4>MAK 80 W SuperVOOC 6 A Mobile Charger  (Black)</h4>
+              </div>
+              <div class="PhonePicPic" >
+                <img src="/src/assets/images/accessory/11 3.png" alt="" srcset="">
+              </div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$10.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>               
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>charging cable</span>
+                <h4>MAK Lightning Cable Fast Charging USB to Lightning Compatible</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/14 3.png" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$11.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Monitor</span>
+                <h4>ASUS TUF GAMING VG279QR ( 27" / FULL HD / 165HZ / IPS )</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/20.jpg" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$250.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Keyboard</span>
+                <h4>ZEBRONICS Zeb-K20 Wired USB Desktop Keyboard  (Black)</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/15.jpg" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$99.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxMiddle" >
+          <div class="BoxRightMiddleAll">
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Monitor</span>
+                <h4>AGON PRO AG274UXP (4K 144HZ /NANO IPS / DCI P3 102% / HDR600 </h4>
+              </div>
+              <div class="PhonePicPic" >
+                <img src="/src/assets/images/accessory/16.jpg" alt="" srcset="">
+              </div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$719.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>           
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Monitor</span>
+                <h4>AOC 27V5/BK ( 27 INCH (1920 X 1080) / 75HZ / AH-IPS / SRGB 101% )</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/17.jpg" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$330.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Monitor</span>
+                <h4>IPS LED Lenovo ThinkVision 27"
+                  T27i 10, Full HD (1920 x 1080)</h4>
+              </div>
+              <div class="PhonePicPic"><img src="/src/assets/images/accessory/18.jpg" alt=""></div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$600.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>            </div>
+            <div class="PhonePic">
+              <div class="PhoneTextTop">
+                <span>Monitor</span>
+                <h4>
+                  MONITOR MSI G2722​​ ( IPS / 27" / 1920 X 1080 (FHD) / 170HZ,1MS )</h4>
+              </div>
+              <div class="PhonePicPic">
+                <img src="/src/assets/images/accessory/19.jpg" alt="">
+              </div>
+              <div class="PhoneTextBottom">
+                <div class="h5Textleft">
+                  <h5>$700.00</h5>
+                </div>
+                <div class="iTextright">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="boxRight-Bottom">
+        <div class="BottomText">
+          <span>Showing <b>20</b> of <b> 10929</b></span>
+        </div>
+        <div class="BottomText" >
+           <div class="Afooter">
+            <i class="fas fa-angle-left"></i>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">...</a>
+
+           <i class="fas fa-angle-right"></i>
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- close body -->
+
+  <!-- footer section start -->
+  <footer class="footer-container">
+    <div class="footer-wrapper">
+      <figure class="logo-box">
+        <img src="../src/assets/images/logo/logo.png" />
+
+        <div class="footer-title">
+          <p>Email:</p>
+          <span>electronic.plateform.store@gmail.com</span>
+        </div>
+
+        <div class="social-links">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </figure>
+
+      <div class="category-footer">
+        <article>
+          <p>Category</p>
+        </article>
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#tvandaudio">Tv&amp;Audio</a>
+            </li>
+            <li>
+              <a href="#smartphones">Smartphones</a>
+            </li>
+            <li>
+              <a href="#laptopandpcs">Laptop&amp;Pcs</a>
+            </li>
+            <li>
+              <a href="#accessory">Accessory</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="category-footer">
+        <article>
+          <p>Useful Links</p>
+        </article>
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#wishlist">Wishlist</a>
+            </li>
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#termandcondition">Term &amp; Condition</a>
+            </li>
+            <li>
+              <a href="#privacypolicy">Privacy Policy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="category-footer">
+        <article>
+          <p>Customer Service</p>
+        </article>
+
+        <nav class="footer-menu">
+          <ul class="footer-list">
+            <li>
+              <a href="#about">My Account</a>
+            </li>
+            <li>
+              <a href="#contact">My Cart</a>
+            </li>
+            <li>
+              <a href="#wishlist">Track order</a>
+            </li>
+            <li>
+              <a href="#faq">Return &amp; Exchange</a>
+            </li>
+            <li>
+              <a href="#termandcondition">Repair service</a>
+            </li>
+            <li>
+              <a href="#privacypolicy">Support</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="copyright">
+    <article>
+      <p>© E3 Year4 Group 2023 - All Rights Reserved</p>
+    </article>
+  </footer>
+  <!-- footer section close -->
+
+
+  <!-- import javascript file -->
+  <script src="../src/Accessory.js"></script>
+</body>
+
+</html>

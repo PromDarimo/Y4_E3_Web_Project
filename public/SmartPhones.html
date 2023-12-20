@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../src/assets/style/TvAndAudio.css" />
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <!-- overwrite from TvandAudio  -->
+  <style>
+    .right-box .box-r-b{
+      height: 1200px;
+    }
+
+  </style>
+
+  <body>
+    <!-- section header start -->
+    <header class="container-fluid header___container">
+      <nav class="container top___bar">
+        <!-- logo box -->
+        <li class="logo___box">
+          <a href="index.html"
+            ><img src="../src/assets/images/logo/logo.png"
+          /></a>
+        </li>
+
+        <!-- input search section -->
+        <div class="search-filed">
+          <input
+            type="search"
+            name=""
+            id=""
+            class="input-filed"
+            placeholder="Search for products"
+          />
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+        </div>
+
+        <!-- icons section -->
+        <li class="icons">
+          <i class="fa-solid fa-user"></i>
+        </li>
+        <li class="icons">
+          <i class="fa-solid fa-heart"></i>
+        </li>
+        <li class="icons">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </li>
+      </nav>
+    </header>
+    <!-- close header section -->
+
+    <!-- navigation bar section -->
+    <nav class="container-fluid navbar___container">
+      <ul class="navbar___list">
+        <li>
+          <a href="Shop.html">shop</a>
+        </li>
+        <li>
+          <a href="TvAndAudio.html">tv & audio</a>
+        </li>
+        <li>
+          <a href="LaptopAndPc.html">laptop & pcs</a>
+        </li>
+        <li>
+          <a href="SmartPhones.html" class="active">smartphones</a>
+        </li>
+        <li>
+          <a href="Accessory.html">accessory</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- close navigation bar section -->
+
+    <!-- ?write body -->
+
+    <div class="container-fluid box-container" >
+      <div class="container" >
+        <div class="row" >
+          <!-- *open left-box -->
+
+          <div class="col-xl-3 left-box" >
+            <!-- *open box-l-a -->
+            <div class="box-l-a">
+              <h1>Categories</h1>
+              <div class="box-1" style="cursor: pointer">
+                <h1 id="box-l-1">
+                  All <i class="fa-solid fa-chevron-up" id="icon"></i>
+                </h1>
+                <ul class="box-l-list-a">
+                  <li>tv & audio</li>
+                  <li>laptop & pcs</li>
+                  <li>smartphones</li>
+                  <li>accessories</li>
+                </ul>
+              </div>
+            </div>
+            <!-- *close box-l-a -->
+
+            <!-- *open box-l-b -->
+            <div class="box-l-b">
+              <h1>Brands</h1>
+              <ul class="box-l-list-b">
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">Samsung</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">Apple</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">LG</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">Huawei</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">Nokia</label>
+                </li>
+                <li class="box-more">
+                  Show more&nbsp;&nbsp;
+                  <i
+                    class="fa-solid fa-chevron-down"
+                    style="font-size: 14px"
+                  ></i>
+                </li>
+                <li id="after-click-show">
+                  <input type="checkbox" name="" id="" />
+                  <label for="">OPPO</label>
+                </li>
+                <li id="after-click-show">
+                  <input type="checkbox" name="" id="" />
+                  <label for="">VIVO</label>
+                </li>
+                <li id="after-click-show">
+                  <input type="checkbox" name="" id="" />
+                  <label for="">NHDC</label>
+                </li>
+              </ul>
+            </div>
+            <!-- *open box-l-b -->
+
+            <!-- *open box-l-c -->
+            <div class="box-l-b">
+              <h1>Price</h1>
+              <ul class="box-l-list-b">
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for=""> &lt; 50</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">100 - 200</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">200 - 300</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">300 - 400</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for="">400 - 500</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for=""> &gt; 500</label>
+                </li>
+                <li class="line"></li>
+                <li>
+                  <input type="checkbox" name="" id="" />
+                  <label for=""> Price interval</label>
+                </li>
+                <li class="price-slider">
+                  <input type="range" />
+                </li>
+                <li>Price: $6 - $14,800</li>
+              </ul>
+            </div>
+            <!-- *close box-l-c -->
+          </div>
+
+          <!-- *close left-box -->
+
+          <!-- !open right-box -->
+
+          <div class="col-xl-9 right-box">
+            <!-- *open box-r-a -->
+
+            <div class="box-r-a">
+              <div class="box-1">
+                <h1>Shop</h1>
+              </div>
+              <div class="box-2">
+                Shop <b>&nbsp;1-20&nbsp;</b> of <b>&nbsp;200</b>
+              </div>
+            </div>
+
+            <!-- *close box-r-a -->
+
+            <!-- *open box-r-b -->
+
+            <div class="box-r-b">
+              <!-- 1 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1"
+                    </h1>
+                  </div>
+                  <div  class="box-img" style="background-image: url(../src/assets/images/smartphones/01.png);"></div>
+                  <div class="box-footer">
+                    <p>$1200.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 2 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Mobile Phone Nokia 1280, Dual 2 Sims, 4G
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/02.png);"></div>
+                  <div class="box-footer">
+                    <p>$60.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 03 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Samsung Galaxy S22, Exynos 2200 Octa-Core
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/03.png);"></div>
+                  <div class="box-footer">
+                    <p>$640.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 04 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Huawei Nova 9, Qualcomm SM 7325 Snapdragon 778G
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/04.png);"></div>
+                  <div class="box-footer">
+                    <p>$300.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 5 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;" >
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                     Samsung Galaxy Note 10, Snapdragon 855 Octa-core
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/05.png);"></div>
+                  <div class="box-footer">
+                    <p>$480.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 6 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Honor 70, Qualcomm SM7325-AE Snapdragon 778 + 5G
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/06.png);"></div>
+                  <div class="box-footer">
+                    <p>$440.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 7 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Apple iPhone 14 Pro Max, LTPO Super Retina XDR OLED 6.7
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/07.png);"></div>
+                  <div class="box-footer">
+                    <p>$1370.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 8 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 400px;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Apple iPhone 14 Pro Max, LTPO Super Retina XDR OLED 6.7
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/08.png);"></div>
+                  <div class="box-footer">
+                    <p>$1370.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 9 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 100%;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Apple iPhone 14 Pro Max, LTPO Super Retina XDR OLED 6.7
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/09.png);"></div>
+                  <div class="box-footer">
+                    <p>$1370.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 10  -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 100%;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Apple iPhone 14 SE(2022), Apple A15 Bionix Hexa-Core
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/010.png);"></div>
+                  <div class="box-footer">
+                    <p>$440.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 11 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 100%;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Xiomi 11T, Media Tek MT6893 Dimensity 1200 5G, AMOLED
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/011.png);"></div>
+                  <div class="box-footer">
+                    <p>$230.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+              <!-- 12 -->
+              <a href="ProductDetail.html" target="_blank">
+                <div class="box-item" style="height: 100%;">
+                  <div class="box-txt">
+                    <p>SmartPhone</p>
+                    <h1>
+                      Xiaomi Mi 11 Ultra, Qualcomm SM8350 Snapdragon 888
+                    </h1>
+                  </div>
+                  <div class="box-img" style="background-image: url(../src/assets/images/smartphones/012.png);"></div>
+                  <div class="box-footer">
+                    <p>$400.00</p>
+                    <div class="icon-box">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                  </div>
+                  <div class="icon-slide">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+              </a>
+    
+              <!-- 13 -->
+            </div>
+            <div style="width: 100%; float: left; margin-top: -15px;">
+              <div class="box-r-b" style="height: 400px;">
+                <a href="ProductDetail.html" target="_blank">
+                  <div class="box-item" style="height: 400px;">
+                    <div class="box-txt">
+                      <p>SmartPhone</p>
+                      <h1>
+                       Samsung Galaxy S23 Ultra, Qualcomm SM8550
+                      </h1>
+                    </div>
+                    <div class="box-img" style="background-image: url(../src/assets/images/smartphones/013.png);"></div>
+                    <div class="box-footer">
+                      <p>$1400.00</p>
+                      <div class="icon-box">
+                        <i class="fas fa-shopping-bag"></i>
+                      </div>
+                    </div>
+                    <div class="icon-slide">
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <!-- 14 -->
+                <a href="ProductDetail.html" target="_blank">
+                  <div class="box-item" style="height: 400px;">
+                    <div class="box-txt">
+                      <p>SmartPhone</p>
+                      <h1>
+                        Samsung Galaxy S22 Plus, Exynos 2200 Octa-Core
+                      </h1>
+                    </div>
+                    <div class="box-img" style="background-image: url(../src/assets/images/smartphones/014.png);"></div>
+                    <div class="box-footer">
+                      <p>$880.00</p>
+                      <div class="icon-box">
+                        <i class="fas fa-shopping-bag"></i>
+                      </div>
+                    </div>
+                    <div class="icon-slide">
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <!-- 15 -->
+                <a href="ProductDetail.html" target="_blank">
+                  <div class="box-item" style="height: 400px;">
+                    <div class="box-txt">
+                      <p>SmartPhone</p>
+                      <h1>
+                        Oppo A96, Qualcomm SM62255 Snapdragon 680 4G, IPS LCD
+                      </h1>
+                    </div>
+                    <div class="box-img" style="background-image: url(../src/assets/images/smartphones/015.png);"></div>
+                    <div class="box-footer">
+                      <p>$260.00</p>
+                      <div class="icon-box">
+                        <i class="fas fa-shopping-bag"></i>
+                      </div>
+                    </div>
+                    <div class="icon-slide">
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <!-- 16 -->
+                <a href="ProductDetail.html" target="_blank">
+                  <div class="box-item" style="height: 400px;" >
+                    <div class="box-txt">
+                      <p>SmartPhone</p>
+                      <h1>
+                        Xiaomi Redmi Note 11 Pro 5G, Octa-Core Qualcomm SM6375
+                      </h1>
+                    </div>
+                    <div class="box-img" style="background-image: url(../src/assets/images/smartphones/016.png);"></div>
+                    <div class="box-footer">
+                      <p>$320.00</p>
+                      <div class="icon-box">
+                        <i class="fas fa-shopping-bag"></i>
+                      </div>
+                    </div>
+                    <div class="icon-slide">
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                </a> 
+              </div>
+               
+             </div>
+
+            <!-- *close box-r-b -->
+
+            <!-- *close box-r-c -->
+
+            <div class="box-r-c">
+              <div class="box-1">
+                Shop <b>&nbsp;1-20&nbsp;</b> of <b>&nbsp;200</b>
+              </div>
+
+              <div class="box-2">
+                <ul style="cursor: pointer">
+                  <li class="btn-back">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </li>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>...</li>
+                  <li>200</li>
+                  <li class="btn-next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- *close box-r-c -->
+          </div>
+
+          <!-- !close right-box -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ?close body -->
+
+    <!-- footer section start -->
+    <footer class="footer-container">
+      <div class="footer-wrapper">
+        <figure class="logo-box">
+          <a href="index.html"
+            ><img src="../src/assets/images/logo/logo.png"
+          /></a>
+
+          <div class="footer-title">
+            <p>Email:</p>
+            <span>electronic.plateform.store@gmail.com</span>
+          </div>
+
+          <div class="social-links">
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="social-icons">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="social-icons">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </figure>
+
+        <div class="category-footer">
+          <article>
+            <p>Category</p>
+          </article>
+          <nav class="footer-menu">
+            <ul class="footer-list">
+              <li>
+                <a href="#tvandaudio">Tv&amp;Audio</a>
+              </li>
+              <li>
+                <a href="#smartphones">Smartphones</a>
+              </li>
+              <li>
+                <a href="#laptopandpcs">Laptop&amp;Pcs</a>
+              </li>
+              <li>
+                <a href="#accessory">Accessory</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="category-footer">
+          <article>
+            <p>Useful Links</p>
+          </article>
+          <nav class="footer-menu">
+            <ul class="footer-list">
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#wishlist">Wishlist</a>
+              </li>
+              <li>
+                <a href="#faq">FAQ</a>
+              </li>
+              <li>
+                <a href="#termandcondition">Term &amp; Condition</a>
+              </li>
+              <li>
+                <a href="#privacypolicy">Privacy Policy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="category-footer">
+          <article>
+            <p>Customer Service</p>
+          </article>
+
+          <nav class="footer-menu">
+            <ul class="footer-list">
+              <li>
+                <a href="#about">My Account</a>
+              </li>
+              <li>
+                <a href="#contact">My Cart</a>
+              </li>
+              <li>
+                <a href="#wishlist">Track order</a>
+              </li>
+              <li>
+                <a href="#faq">Return &amp; Exchange</a>
+              </li>
+              <li>
+                <a href="#termandcondition">Repair service</a>
+              </li>
+              <li>
+                <a href="#privacypolicy">Support</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="copyright">
+      <article>
+        <p>© E3 Year4 Group 2023 - All Rights Reserved</p>
+      </article>
+    </footer> 
+    <!-- footer section close -->
+
+    <!-- import javascript file -->
+    <script src="../src/TvAndAudio.js"></script>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+@import url('./custom/custom.css');
+
+.boxAll{
+    margin: 0 auto;
+    width: 90%;
+    height: 1300px;
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;
+}
+.boxLeft{
+    width: 20%;
+    height: 100%;
+    /* background: rgba(106, 106, 84, 0.258); */
+}
+.category{
+    border: 1px solid #dde1e8;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    width: 100%;
+    height: 26%;
+   
+   
+}
+.category h1{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.categoryText{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding: 15px;
+     display: flex;
+    flex-direction: column;
+    
+   
+}
+.categoryText input{
+    font-size: 30px;
+}
+
+.categoryText a{
+    color: #7d8fa9;
+    border-radius: 10px;
+    /* display: flex; */
+    font-size: 15px;
+    
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 15px;
+    /* background-color: aqua; */
+}
+#category{
+    height: 20%;
+
+}
+.CatText{
+    height: 35%;
+}
+.categoryText h1{
+   font-size: 20px;
+   color: black;
+   /* padding-left: 15px; */
+}
+.Checkbox{
+    padding-top: 13px;
+    color: #586a84;
+}
+
+.Checkbox i{
+    padding-left: 15px;
+    font-size: 15px;
+}
+ input[type="checkbox"]{
+    
+       margin-right: 5px; 
+        transform: scale(1.4); /* Adjust the scale to make the checkbox bigger */
+  }
+  .id{
+    appearance: none;
+    background-color: #319DFF;
+    height: 5px;
+    position: relative;
+    
+  }
+.id::after{
+    content: '';
+    width: 14px ;
+    height: 14px; 
+    top: -4.5px;
+    left: -2px;
+    background-color:#319DFF;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.id::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px ;height: 14px; 
+    background-color:#319DFF;
+    border-radius: 50%;
+  }
+.RangeCheckBox{
+    padding: 10px;
+}
+.Checkbox2{
+    padding: 0px;
+  }
+.boxRight{
+    width: 78%;
+    height: 100%;
+    /* background: blue; */
+}
+.Cattext{
+    height: 36%;
+}
+.textMenu-header h4{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.textMenu-header span{
+    float: right;
+    color: rgba(0, 0, 0, 0.678);
+}
+.boxRight-Top{
+    width: 100%;
+    height: 7%;
+    background-color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dde1e8;
+    border-radius: 5px;
+}
+.textMenu-middle hr{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.boxRight-Middle{
+    width: 100%;
+    height: 83%;
+    /* background-color: greenyellow; */
+    margin-top: 20px; /* វានៅសល់spaace */
+    /* display: flex;
+    justify-content: space-between; */
+}
+.boxRight-Bottom{
+    width: 100%;
+    height: 7.2%;
+    /* background-color: black; */
+    margin-top: 16px;
+    display: flex; 
+    border: 1px solid #dde1e8;
+    border-radius: 5px; 
+}
+.BottomText{
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+}
+.BottomText a{
+    margin-left: 7px;
+    padding:15px;
+    text-decoration: none;
+    background-color:  #dde1e8;
+    /* margin: 10px; */
+    border-radius: 50%;
+}
+
+.boxMiddle{
+    width: 100%;
+    height: 33.33%;
+    /* background-color: chartreuse; */
+    /* margin-top: 20px; */
+    
+}
+.top-Menu{
+    width: 97%;
+    height: 80%;
+    /* background-color: rgb(189, 12, 12); */
+}
+.textMenu-header{
+    width: 100%;
+    height: 90%;
+    padding: 15px;
+    /* background-color:wheat; */
+    
+}
+.textMenu-middle{
+    width: 100%;
+    height: 10%;
+    /* background-color:red; */
+    
+}
+
+.top-Menu-Text h3{
+    color: white;
+    float: left;
+}
+
+.h1{
+    /* padding: 10px; padding pi element tov krav */
+    /* margin: 10px;element jol kong 10px */
+    background-color:red ;
+    
+}
+.BoxRightMiddleAll{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.PhonePic{
+    width: 23%;
+    height:90%;
+    /* background-color: white; */
+    border: 1px solid  #dde1e8;
+    border-radius: 7px;
+   
+}
+
+.PhoneTextTop{
+    width: 100%;
+    height: 25%;
+    /* background-color: chocolate; */
+
+}
+.PhoneTextTop span{
+    font-size: 13px;
+    margin-left: 15px;
+   color: #586a84;
+   margin-top: 20px;
+   /* background-color: aqua; */
+}
+.PhoneTextTop h4{
+     font-size: 12px;
+     margin-left: 15px;
+     color:#0077e4;;
+     margin-top: 10px;   
+} 
+.PhonePicPic{
+    width: 100%;
+    height: 55%;
+    /* background-color: rgb(30, 57, 210); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.PhonePicPic img{
+    width: 70%;
+    height: 100%;
+}
+.PhoneTextBottom{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* background-color: rgb(30, 210, 42); */
+}
+.h5Textleft{
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    /* background-color: aqua; */
+}
+.iTextright{
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    
+}
+.PhoneTextBottom h5{
+    padding: 20px 15px;
+    font-size: 15px;
+    /* background-color: #586a84; */
+}
+.iTextright i{
+    margin-left: 20px;
+    padding: 10px;
+    /* float: right; */
+    /* width: 10px; */
+    color: white;
+    background-color:  #dde1e8;
+    /* margin: 10px; */
+    border-radius: 50%;
+}
+
+
+
